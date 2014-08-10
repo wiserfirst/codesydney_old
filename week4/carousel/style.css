@@ -1,0 +1,51 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container>button {
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
+#carousel {
+  margin: 0 auto;
+  list-style: none;
+  position: relative;
+  width: 800px;
+  height: 600px;
+}
+
+#carousel>li.slide {
+    display: none;
+}
+
+#carousel img {
+  position: absolute;
+  max-width:800px;
+  max-height:600px;
+}
+
+.controls {
+    width: 100px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#points>li {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 10px;
+    display: inline-block;
+    background: lightgrey;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#points>li.active {
+    background: blue;
+}
